@@ -17,4 +17,9 @@ public class LoginTest {
     public void testLoginValido() {
         assertTrue(login.autenticar("nataly", "clave123", datosLogin));
     }
+    @Test
+    public void testUsuarioInexistente() {
+        assertFalse(login.autenticar("Patata", "Pimpum", datosLogin));
+    }
+
 }
