@@ -45,4 +45,4 @@ public class ConsolaLogin {
             System.out.println("Autenticación fallida.");
         }
     }
-}
+}//a
