@@ -1,3 +1,7 @@
+package UI;
+
+import Modelo.DatosLogin;
+
 public class Login {
     public boolean autenticar(String usuario, String clave, DatosLogin datos) {
         String intento = usuario + ";" + clave;
@@ -9,4 +13,4 @@ public class Login {
         return false;
     }
 }
-//a
+//aa
