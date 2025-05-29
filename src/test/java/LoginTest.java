@@ -1,5 +1,5 @@
 import Modelo.DatosLogin;
-import UI.Login;
+import Controlador.Login;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

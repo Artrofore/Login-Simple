@@ -1,5 +1,6 @@
-package Modelo;
-import UI.Login;
+package Vista;
+import Controlador.Login;
+import Modelo.DatosLogin;
 
 import java.util.Scanner;
 
@@ -16,7 +17,7 @@ public class ConsolaLogin {
             ejecutarOpcion(opcion);
         } while (!opcion.equals("2"));
     }
-
+ 2
     private void mostrarOpciones() {
         System.out.println("1. Iniciar sesión");
         System.out.println("2. Salir");

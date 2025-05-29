@@ -1,4 +1,4 @@
-package UI;
+package Controlador;
 
 import Modelo.DatosLogin;
 
